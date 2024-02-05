@@ -1,0 +1,4 @@
+cache/mojang*.jar
+versions/*
+server.properties
+jrecraft*
