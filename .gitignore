@@ -1,4 +1,1 @@
-cache/mojang*.jar
-versions/*
-server.properties
-jrecraft*
+plugins/WorldGuard/worlds/*
