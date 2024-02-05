@@ -11,9 +11,9 @@ I did all of this with Minecraft 1.20.4 on Ubuntu 23.10, so all instructions wil
 Most of it really shouldn't matter (Windows, Mac, or Linux) as long as you have Java and whatever else is required to run a Paper (Spigot) server.
 
 ### Install Java
-The default Java in Ubuntu is Java 17 which is fine.
+The default Java in Ubuntu is Java 17 which is fine. You'll need wget in the next step so get that too
 
-	sudo apt install default-jdk
+	sudo apt install default-jdk wget
 
 ### Download Paper (Server)
 I'm not going to include it because I don't want to read the license.
@@ -38,4 +38,4 @@ NOTE: You may want to open the ports in Ubuntu's firewall
 
 	sudo ufw allow 25565
 
-Connect to your server via it's IP address. If you set it up on the computer you plan to play on then your IP is probably `localhost`  or something.
+Connect to your server via its IP address. If you set it up on the computer you plan to play on then your IP is probably `localhost`  or something.
