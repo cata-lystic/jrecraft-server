@@ -97,7 +97,7 @@ allow-gui: true
 # when they use a chest for the first time.
 # consider setting this to true when you disable sorting by default.
 # see also -> message-when-using-chest
-show-message-when-using-chest: true
+show-message-when-using-chest: false
 
 # when set to true, players with sorting ENABLED will be
 # shown a message on how to disable automatic chest sorting
@@ -108,7 +108,7 @@ show-message-when-using-chest-and-sorting-is-enabled: false
 
 # when set to true, the messages are shown again when a player
 # logs out and back in and then uses a chest again.
-show-message-again-after-logout: true
+show-message-again-after-logout: false
 
 # to sort by category, we need category files. ChestSort comes
 # with a number of pregenerated category files, named

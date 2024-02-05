@@ -1,7 +1,7 @@
 # WELCOME TO THE OFFICIAL SLEEP-MOST PLUGIN
 # AUTHORS: MrGeneralQ
 # CONTRIBUTORS: Malin, Nozemi, HorrendousEntity
-# VERSION: 5.4.0
+# VERSION: 5.3.1
 # SUPPORT NEEDED? Join our discord at --> https://discord.pseudonova.com/ WE ARE HAPPY TO HELP YOU FURTHER!
 # YOU CAN FIND THE DOCS FOR THIS PLUGIN HERE --> https://mrgeneralq.gitbook.io/sleepmost/
 
@@ -41,7 +41,7 @@ sleep:
     skip-night-sound: ui.toast.challenge_complete
     skip-storm-sound: entity.wither.spawn
     reset-time-since-rest: true
-
+  
   world2:
     enabled: false
     calculation-method: percentage
@@ -67,6 +67,50 @@ sleep:
     skip-night-sound: ui.toast.challenge_complete
     skip-storm-sound: entity.wither.spawn
     reset-time-since-rest: true
+  jrecraft:
+    enabled: true
+    calculation-method: percentage
+    percentage-required: 0.5
+    players-required: 2
+    mob-no-target: true
+    use-exempt: true
+    use-afk: false
+    prevent-sleep: false
+    prevent-phantom: false
+    nightcycle-animation: false
+    storm-sleep: false
+    skip-delay: 0
+    heal: false
+    feed: false
+    use-sound-storm-skipped: false
+    longer-night-duration: 0
+    gsit-hook: false
+    use-title-storm-skipped: false
+    non-sleeping-sound: false
+    use-sound-night-skipped: false
+    allow-sleep-cmd: true
+    gsit-sleep: true
+    disable-daylight-cycle-gamerule: true
+    insomnia-chance: 0.0
+    non-sleeping-title: false
+    skip-storm-sound: entity.wither.spawn
+    use-bossbar: false
+    reset-time-since-rest: true
+    exempt-creative: false
+    clock-animation: true
+    exempt-flying: false
+    use-title-night-skipped: false
+    insomnia-milk: false
+    skip-night-sound: ui.toast.challenge_complete
+    exempt-spectator: false
+    phantom-reset-audience: all
+    exempt-below-y: -1
+    skip-storm: true
+    non-sleeping-clock-animation: false
+    dynamic-animation-speed: false
+    allow-kick: false
+    skip-msg-audience: all
+    force-nightcycle-animation: true
 
 # specify the time which the world will be set after reset
 time-after-reset: 0
@@ -81,5 +125,5 @@ time:
 messages:
   cooldown: 10
 
-#debug mode
+# debug mode
 debug-mode: false

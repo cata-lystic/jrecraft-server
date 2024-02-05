@@ -77,6 +77,6 @@ On-Join-Spawn: true
 #Telport player to the first join spawn on their first join on the server.
 On-First-Join-Spawn: true
 #Teleport player to the spawn on respawn.
-Respawn-At-Spawn: true
+Respawn-At-Spawn: false
 #Ignore bed-spawn on player respawn [teleport to spawn if the option above (Respawn-At-Spawn) is true].
-Override-Bedspawn-On-Respawn: true
+Override-Bedspawn-On-Respawn: false

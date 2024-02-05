@@ -5,7 +5,7 @@
 ############################################################
 
 # This is the config file for EssentialsX.
-# This config was generated for version 2.21.0-dev+34-0d1462a.
+# This config was generated for version 2.21.0-dev+25-fbfd7e9.
 
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
 # If you receive an error when Essentials loads, ensure that:
@@ -147,7 +147,7 @@ drop-items-if-full: false
 
 # Essentials Mail Notification
 # Should we notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # Specifies the duration (in seconds) between each time a player is notified of mail they have.
 # Useful for servers with a lot of mail traffic.
@@ -444,22 +444,8 @@ debug: false
 # If you don't set this, the default locale of the server will be used.
 # For example, to set language to English, set locale to en, to use the file "messages_en.properties".
 # Don't forget to remove the # in front of the line.
-# For more information, visit https://essentialsx.net/wiki/Locale.html
+# For more information, visit http://wiki.ess3.net/wiki/Locale
 #locale: en
-
-# Should EssentialsX use player's language instead of the server's when sending messages?
-# This is useful if you want to use a different language for your server than for your players.
-# For example, if you have your server set to English and a player who speaks French, you can set this to true
-# and EssentialsX will send messages in French to the player and messages in the console as English.
-# If a player's language is not known, the server's language (or one defined above) will be used.
-per-player-locale: false
-
-# Change the default primary and secondary colours used in EssentialsX messages.
-# Some messages may use custom colours, which will need to be edited in the appropriate message files.
-# For more information on customising messages, see https://essentialsx.net/wiki/Locale.html
-message-colors:
-  primary: '#ffaa00'
-  secondary: '#ff5555'
 
 # Turn off god mode when people leave the server.
 remove-god-on-disconnect: false
@@ -778,7 +764,7 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
+  default: 1
   vip: 5
   staff: 10
 
@@ -794,7 +780,7 @@ compass-towards-home-perm: false
 
 # If no home is set, would you like to send the player to spawn?
 # If set to false, players will not be teleported when they run /home without setting a home first.
-spawn-if-no-home: true
+spawn-if-no-home: false
 
 # Should players be asked to provide confirmation for homes which they attempt to overwrite?
 confirm-home-overwrite: false
@@ -921,9 +907,9 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  #format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
-  #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
+  format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
   #  default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'

@@ -11,7 +11,7 @@ prefix: '&7[&bSleep-Most&7]'
 user:
   night-skipped-chat: '&aGood morning, %player%!'
   storm-skipped-chat: '&aThe sky is clearing!'
-  players-left-night: '&bSleeping to skip the night &f[&c%sleeping%/%required%&f]&b!'
+  players-left-night: '&bSleeping to skip night &f[&c%sleeping%/%required%&f]&b!'
   players-left-storm: '&bSleeping to skip the storm &f[&c%sleeping%/%required%&f]&b!'
   sleep-prevented: '&cYou cannot sleep in this world!'
   no-sleep-storm: '&cYou cannot sleep during a thunderstorm'

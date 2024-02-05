@@ -7,7 +7,7 @@ Settings:
   ExpandedSearch: false
   EnableExperimentalTeleport: false
   PlayerDistanceCheck: true
-  TeleportAllTameables: false
+  TeleportAllTameables: true
 DogSettings:
   RandomCollarColor: true
   UseLevels: true

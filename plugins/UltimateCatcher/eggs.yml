@@ -11,12 +11,33 @@ Eggs:
     Recipe:
     - 1:EGG
     - 5:DIAMOND
-    Cost: 15
-    Chance: 60%
+    Cost: 0
+    Chance: 75%
   Insane:
     Name: '&5Insane Egg'
     Recipe:
     - 1:EGG
     - 5:EMERALD
     Cost: 50
+    Chance: 100%
+  Broken:
+    Name: '&8Broken Egg'
+    Recipe:
+    - 1:EGG
+    - 5:GOLD_NUGGET
+    Cost: 0
+    Chance: 10%
+  Great:
+    Name: '&2Great Egg'
+    Recipe:
+    - 1:EGG
+    - 5:GOLD_INGOT
+    Cost: 0
+    Chance: 50%
+  Perfect:
+    Name: '&5Perfect Egg'
+    Recipe:
+    - 1:EGG
+    - 5:EMERALD
+    Cost: 0
     Chance: 100%

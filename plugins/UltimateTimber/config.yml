@@ -96,7 +96,7 @@ replant-saplings: true
 
 # Always replant saplings for base tree blocks, regardless of player permissions
 # Default: false
-always-replant-sapling: false
+always-replant-sapling: true
 
 # How many seconds to prevent players from breaking replanted saplings
 # Set to 0 to disable
@@ -107,7 +107,7 @@ replant-saplings-cooldown: 3
 
 # Give fallen leaf blocks a chance to replant saplings when they hit the ground
 # Default: true
-falling-blocks-replant-saplings: true
+falling-blocks-replant-saplings: false
 
 # The percent chance that fallen leaves have of planting a sapling
 # Does nothing if falling-blocks-replant-saplings is false
@@ -533,7 +533,7 @@ global-log-loot:
 global-leaf-loot:
   0:
     material: GOLDEN_APPLE
-    chance: 0.1
+    chance: 0
 
 # Custom entire tree loot that is available for all tree types
 # The loot will be dropped only one time for the entire tree

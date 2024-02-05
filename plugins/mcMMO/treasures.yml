@@ -5,7 +5,7 @@ Excavation:
     HEART_OF_THE_SEA:
         Amount: 1
         XP: 9999
-        Drop_Chance: 0.01
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 90
             Retro_Mode: 900
@@ -14,7 +14,7 @@ Excavation:
     POTATO:
         Amount: 1
         XP: 50
-        Drop_Chance: 3.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 10
             Retro_Mode: 100
@@ -24,7 +24,7 @@ Excavation:
     SPYGLASS:
         Amount: 1
         XP: 500
-        Drop_Chance: 0.1
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 7
             Retro_Mode: 70
@@ -34,7 +34,7 @@ Excavation:
     STICK:
         Amount: 2
         XP: 50
-        Drop_Chance: 2.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 1
             Retro_Mode: 10
@@ -44,7 +44,7 @@ Excavation:
     FEATHER:
         Amount: 3
         XP: 100
-        Drop_Chance: 1.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 5
             Retro_Mode: 50
@@ -53,7 +53,7 @@ Excavation:
     TRIDENT:
         Amount: 1
         XP: 100
-        Drop_Chance: 0.02
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 40
             Retro_Mode: 400
@@ -62,9 +62,9 @@ Excavation:
         - Clay
         - Muddy_Mangrove_Roots
     CAKE:
-        Amount: 1
+        Amount: 0
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 75
             Retro_Mode: 750
@@ -83,7 +83,7 @@ Excavation:
     GUNPOWDER:
         Amount: 1
         XP: 30
-        Drop_Chance: 10.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 10
             Retro_Mode: 100
@@ -92,7 +92,7 @@ Excavation:
     BONE:
         Amount: 1
         XP: 30
-        Drop_Chance: 10.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 20
             Retro_Mode: 200
@@ -102,7 +102,7 @@ Excavation:
     APPLE:
         Amount: 1
         XP: 100
-        Drop_Chance: 0.1
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 25
             Retro_Mode: 250
@@ -112,7 +112,7 @@ Excavation:
     SLIME_BALL:
         Amount: 1
         XP: 100
-        Drop_Chance: 5.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 15
             Retro_Mode: 150
@@ -121,7 +121,7 @@ Excavation:
     BUCKET:
         Amount: 1
         XP: 100
-        Drop_Chance: 0.1
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 50
             Retro_Mode: 500
@@ -130,7 +130,7 @@ Excavation:
     NETHERRACK:
         Amount: 1
         XP: 30
-        Drop_Chance: 0.5
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 85
             Retro_Mode: 850
@@ -139,7 +139,7 @@ Excavation:
     RED_MUSHROOM:
         Amount: 1
         XP: 80
-        Drop_Chance: 0.5
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 50
             Retro_Mode: 500
@@ -153,7 +153,7 @@ Excavation:
     BROWN_MUSHROOM:
         Amount: 1
         XP: 80
-        Drop_Chance: 0.5
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 50
             Retro_Mode: 500
@@ -167,7 +167,7 @@ Excavation:
     EGG:
         Amount: 1
         XP: 100
-        Drop_Chance: 1.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 25
             Retro_Mode: 250
@@ -176,7 +176,7 @@ Excavation:
     SOUL_SAND:
         Amount: 1
         XP: 80
-        Drop_Chance: 0.5
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 65
             Retro_Mode: 650
@@ -186,7 +186,7 @@ Excavation:
     CLOCK:
         Amount: 1
         XP: 100
-        Drop_Chance: 0.1
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 50
             Retro_Mode: 500
@@ -195,7 +195,7 @@ Excavation:
     COBWEB:
         Amount: 1
         XP: 150
-        Drop_Chance: 5.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 75
             Retro_Mode: 750
@@ -204,7 +204,7 @@ Excavation:
     STRING:
         Amount: 1
         XP: 200
-        Drop_Chance: 5.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 25
             Retro_Mode: 250
@@ -213,7 +213,7 @@ Excavation:
     GLOWSTONE_DUST:
         Amount: 1
         XP: 80
-        Drop_Chance: 5.0
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 5
             Retro_Mode: 50
@@ -228,7 +228,7 @@ Excavation:
     MUSIC_DISC_13:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 25
             Retro_Mode: 250
@@ -247,7 +247,7 @@ Excavation:
     MUSIC_DISC_CAT:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 25
             Retro_Mode: 250
@@ -264,9 +264,9 @@ Excavation:
         - Soul_Sand
         - Soul_Soil
     DIAMOND:
-        Amount: 1
+        Amount: 0
         XP: 1000
-        Drop_Chance: 0.13
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 35
             Retro_Mode: 350
@@ -286,7 +286,7 @@ Excavation:
     COCOA_BEANS:
         Amount: 1
         XP: 100
-        Drop_Chance: 1.33
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 35
             Retro_Mode: 350
@@ -300,7 +300,7 @@ Excavation:
     QUARTZ:
         Amount: 1
         XP: 100
-        Drop_Chance: 0.5
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 85
             Retro_Mode: 850
@@ -318,7 +318,7 @@ Excavation:
     NAME_TAG:
         Amount: 1
         XP: 3000
-        Drop_Chance: 0.05
+        Drop_Chance: 0
         Level_Requirement:
             Standard_Mode: 25
             Retro_Mode: 250
@@ -395,7 +395,7 @@ Hylian_Luck:
         Drops_From:
         - Flowers
     EMERALD:
-        Amount: 1
+        Amount: 0
         XP: 0
         Drop_Chance: 100.0
         Level_Requirement:
