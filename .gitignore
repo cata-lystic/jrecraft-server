@@ -27,7 +27,7 @@ plugins/SetSpawn/locations.yml
 plugins/WorldGuard/cache/profiles.sqlite
 plugins/AutomatedCrafting/autocrafters.json
 plugins/DeathChest/audits/*
-plugins/DiscordSRV/accounts.aof
+plugins/DiscordSRV/*
 plugins/Essentials/spawn.yml
 plugins/Essentials/usermap.bin
 plugins/Essentials/uuids.bin
