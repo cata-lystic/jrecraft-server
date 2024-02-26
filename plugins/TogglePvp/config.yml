@@ -114,7 +114,7 @@ Attack MSG Cooldown: 1.0
 
 # State effects are effects that are applied to a player depending on their pvp state
 State Effects:
-  enabled: false
+  enabled: true
   # what colors should players glow depending on their pvp state
   # For a list of colors see: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html
   # set to "" to disable glowing
@@ -122,7 +122,7 @@ State Effects:
   pve glow color: ""
   # how should a players name be displayed in tab depending on their pvp state
   # use "" to disable
-  pvp tab name: "&c%name%"
+  pvp tab name: "&c[PVP]&r %name%"
   pve tab name: ""
 
 #Misc Advanced Messages

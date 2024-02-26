@@ -45,7 +45,8 @@
 #
 # NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
-DiscordToMinecraftChatMessageFormat: "[<aqua>Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name%%reply% » %message%"
+#DiscordToMinecraftChatMessageFormat: "[<aqua>Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name%%reply% » %message%"
+DiscordToMinecraftChatMessageFormat: "[<aqua>Discord</aqua>] %name%%reply% » %message%"
 DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>Discord</aqua>] %name%%reply% » %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
@@ -205,7 +206,7 @@ MinecraftPlayerJoinMessage:
     Color: "#00ff00"
     Author:
       ImageUrl: "%embedavatarurl%"
-      Name: "%username% joined the server"
+      Name: "%username% joined"
       Url: ""
     ThumbnailUrl: ""
     Title:
@@ -263,7 +264,7 @@ MinecraftPlayerLeaveMessage:
     Color: "#ff0000"
     Author:
       ImageUrl: "%embedavatarurl%"
-      Name: "%username% left the server"
+      Name: "%username% logged out"
       Url: ""
     ThumbnailUrl: ""
     Title:
@@ -287,9 +288,9 @@ MinecraftPlayerDeathMessage:
     Enable: false
     AvatarUrl: "%botavatarurl%"
     Name: "%botname%"
-  Content: ""
+  Content: ":skull_crossbones: `%deathmessage%`"
   Embed:
-    Enabled: true
+    Enabled: false
     Color: "#000000"
     Author:
       ImageUrl: "%embedavatarurl%"
@@ -363,7 +364,8 @@ MinecraftPlayerAchievementMessage:
 # %tps%:           average TPS of the server
 # PlaceholderAPI placeholders are also supported
 #
-ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% players online | %totalplayers% unique players ever joined | Server online for %uptimemins% minutes | Last update: %date%"
+#ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% players online | %totalplayers% unique players ever joined | Server online for %uptimemins% minutes | Last update: %date%"
+ChannelTopicUpdaterChatChannelTopicFormat: "%playercount% online | Server addr: jrecraft.com | Version: 1.20.4 (JAVA AND BEDROCK) | Uptime: %uptimehours% hours."
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
 # AtServerShutdownFormats ONLY supports %totalplayers%, %serverversion%, & %date% / %time%
 ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server is offline | %totalplayers% unique players ever joined"
@@ -385,6 +387,8 @@ UnknownCommandMessage: "&bThat command doesn't exist!"
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
 # DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
 #
+#DiscordChatChannelServerStartupMessage: ""
+#DiscordChatChannelServerShutdownMessage: ""
 DiscordChatChannelServerStartupMessage: ":white_check_mark: **Server has started**"
 DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server has stopped**"
 

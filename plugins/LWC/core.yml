@@ -3,7 +3,7 @@ core:
     flushInterval: 10
     cacheSize: 10000
     precache: -1
-    showNotices: true
+    showNotices: false
     showMyNotices: false
     opIsLWCAdmin: true
     disableHistory: true
@@ -51,85 +51,85 @@ protections:
     blocks:
         chest:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         trapped_chest:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         furnace:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         blast_furnace:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         smoker:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         dispenser:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         dropper:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         barrel:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         composter:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         lectern:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         white_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         orange_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         magenta_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         light_blue_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         yellow_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         lime_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         pink_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         gray_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         light_gray_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         cyan_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         purple_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         blue_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         brown_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         green_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         red_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         black_shulker_box:
             enabled: true
-            autoRegister: private
+            autoRegister: false
         sign:
             enabled: true
         oak_hanging_sign:

@@ -6,7 +6,7 @@ ConfigVersion: 1.27.0
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
-BotToken: "BOTTOKEN"
+BotToken: "NjEzMTY1NTY5MzczMzcyNDE2.GsQUZL.Uj9VGW8OFd16QkREPR9VMmlT4Y-sfq3sKS270o"
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Discord"}
@@ -27,13 +27,14 @@ BotToken: "BOTTOKEN"
 #
 # The first part of channel pairs is not the Discord channel name!
 # Run "/discord reload" after changing this option to apply
-Channels: {"global": "000000000000000000"}
+Channels: {"global": "1201391540518539305"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
-DiscordConsoleChannelId: "000000000000000000"
-
+#DiscordConsoleChannelId: "" # "1201407019828133938"
+#DiscordConsoleChannelId: "1201407019828133938"
+DiscordConsoleChannelId: ""
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
-DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
+DiscordInviteLink: "https://discord.gg/joerogan"
 
 # Debug information
 # Don't enable these unless you're attempting to locate an issue
@@ -77,17 +78,17 @@ Experiment_JdbcUsername: "username"
 Experiment_JdbcPassword: "password"
 
 # Webhook Delivery
-Experiment_WebhookChatMessageDelivery: false
+Experiment_WebhookChatMessageDelivery: true
 Experiment_WebhookChatMessageUsernameFormat: "%displayname%"
 Experiment_WebhookChatMessageFormat: "%message%"
 Experiment_WebhookChatMessageUsernameFromDiscord: false
-Experiment_WebhookChatMessageAvatarFromDiscord: false
+Experiment_WebhookChatMessageAvatarFromDiscord: true
 Experiment_WebhookChatMessageUsernameFilters: {}
 
 # Embed & webhook image/avatar url format
 # Alternative embed avatar url for offline servers:
-# https://cravatar.eu/helmavatar/{username}/{size}.png#{texture}
-AvatarUrl: https://crafatar.com/avatars/{uuid-nodashes}.png?size={size}&overlay#{texture}
+AvatarUrl: https://cravatar.eu/helmavatar/{username}/{size}.png#{texture}
+#AvatarUrl: https://crafatar.com/avatars/{uuid-nodashes}.png?size={size}&overlay#{texture}
 
 # Reserializer
 # Converts formatting (bold, italics, underline, strikethrough) between Minecraft and Discord
@@ -164,12 +165,12 @@ DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
 DiscordChatChannelTranslateMentions: true
 DiscordChatChannelAllowedMentions: [user, channel, emote]
-DiscordChatChannelEmojiBehavior: "name"
+DiscordChatChannelEmojiBehavior: "show"
 DiscordChatChannelEmoteBehavior: "name"
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelPrefixActsAsBlacklist: false
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
-DiscordChatChannelBroadcastDiscordMessagesToConsole: true
+DiscordChatChannelBroadcastDiscordMessagesToConsole: false
 DiscordChatChannelRequireLinkedAccount: false
 DiscordChatChannelBlockBots: false
 DiscordChatChannelBlockWebhooks: true

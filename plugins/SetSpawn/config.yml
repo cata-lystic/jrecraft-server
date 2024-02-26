@@ -64,7 +64,7 @@ Force-Spawn:
   Player-Not-Online-Message: '&0[&fSetSpawn&0]&r: &cThat player is not online!'
 
 #The amount of seconds when a player executes /spawn util they teleport to it.
-Cooldown: 5
+Cooldown: 3
 
 #Messages that admin receives.
 Set-Spawn-Message: '&0[&fSetSpawn&0]&r: &eYou have set the spawn!'
@@ -73,7 +73,7 @@ No-Spawn-Message: '&0[&fSetSpawn&0]&r: &cThere has no spawn been set yet!'
 Reload-Message: '&0[&fSetSpawn&0]&r: &2Config Reloaded!'
 
 #Teleport player to spawn on their join.
-On-Join-Spawn: true
+On-Join-Spawn: false
 #Telport player to the first join spawn on their first join on the server.
 On-First-Join-Spawn: true
 #Teleport player to the spawn on respawn.

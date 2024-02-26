@@ -1,0 +1,36 @@
+user:
+  remove_death: Has muerto, tus portales han sido eliminados.
+  get_portalboots: PortalBoots recibidas!
+  other_remove: '[player] ha eliminado tus portales.'
+  get_portalgun: PortalGun recibida!
+  remove_others: Has eliminado los portales de [player].
+  not_found: El usuario [player] no se ha encontrado.
+  no_permissions: No tienes permisos para hacer eso.
+  get_emancipator: Se ha recibido el bloque emancipador! Coloca uno y otro encima
+    y crearás una red emancipadora.
+  remove_all: Todos los portales han sido eliminados.
+  no_portals: No tienes portales abiertos.
+  remove: Tus portales se han eliminado.
+  other_no_portals: '[player] no tiene portales abiertos.'
+report:
+  sent: Reporte enviado! Gracias por ayudar.
+  contact_error: Has de poner un correo (algo@web) or Discord (usuario#id) para contactar.
+    Si no quieres, entonces pon '-'.
+help:
+  remove_others_portals: Elimina los portales activos de otro usuario.
+  get_emancipator: Obtén el bloque emancipador.
+  get_portalgun: Obtén la PortalGun.
+  get_portalboots: Obtén las PortalBoots.
+  remove_all_portals: Elimina todos los portales.
+  remove_portals: Elimina tus portales activos.
+  companion_cube: Spawnea un cubo de compañia.
+  report: Envia información sobre un problema. En la parte de 'contacto' pon tu email
+    o discord para que pueda contactar contigo (si no quieres, pon '-')
+error:
+  unknown_command: Comando desconocido.
+  unknown_world: No se ha encontrado el mundo [world].
+portal:
+  open: '[player] ha abierto un portal en [pos].'
+  far: Ese bloque está demasiado lejor.
+  deny: No puedes abrir un portal aquí.
+  collides: No puedes colocar dos portales en el mismo bloque!

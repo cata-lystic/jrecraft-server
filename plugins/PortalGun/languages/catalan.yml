@@ -1,0 +1,36 @@
+user:
+  remove_death: Has mort, els teus portals s'han eliminat.
+  get_portalboots: PortalBoots obtingudes!
+  other_remove: '[player] ha eliminat els teus portals.'
+  get_portalgun: PortalGun obtinguda!
+  remove_others: Has eliminat els portals de [player].
+  not_found: L'usuari [player] no s'ha trobat.
+  no_permissions: No tens permisos per fer això.
+  get_emancipator: S'ha obtingut el bloc emancipador! Col·loca un i un altre a sobre
+    i crearàs una xarxa emancipadora.
+  remove_all: S'han eliminat tots els portals.
+  no_portals: No tens portals oberts.
+  remove: Els teus portals s'han eliminat.
+  other_no_portals: '[player] no té portals oberts.'
+report:
+  sent: Report enviat! Gràcies per ajudar.
+  contact_error: Has de posar un correu (algo@web) o Discord (usuari#id) per a contactar.
+    Si no vols, posa '-'.
+help:
+  remove_others_portals: Elimina els portals actius d'un altre usuari.
+  get_emancipator: Adquireix el bloc d'emancipació.
+  get_portalgun: Adquireix la PortalGun.
+  get_portalboots: Adquireix les PortalBoots.
+  remove_all_portals: Elimina tots els portals.
+  remove_portals: Elimina els teus portals actius.
+  companion_cube: Spawneja un cub de companyia.
+  report: Envia informació sobre un problema. En la part de 'contacte' posa el teu
+    email o discord per a que pugui contactar amb tu (si no vols, posa '-')
+error:
+  unknown_command: Comanda desconeguda.
+  unknown_world: No s'ha trobat el mon [world].
+portal:
+  open: '[player] ha obert un portal en [pos].'
+  far: Aquell bloc està molt lluny.
+  deny: No pots obrir un portal aquí.
+  collides: No pots colocar dos portals en el mateix bloc!

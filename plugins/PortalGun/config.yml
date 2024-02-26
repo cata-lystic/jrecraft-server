@@ -1,0 +1,106 @@
+# Language to be used.
+# You can find all the languages in the 'languages' folder,
+# you can also add new ones.
+language: english
+
+portals:
+  # Should the portals be persistent between server restarts?
+  save: false
+  # Should users only be allowed to use their own portals?
+  use_only_yours: false
+  # Remove users' portals when they die.
+  remove_on_death: false
+  # Remove users' portals when they leave the server.
+  remove_on_leave: true
+  # Sound to be used when placing a portal.
+  create_sound: ENTITY_SLIME_JUMP
+  # Sound to be used when using a portal.
+  teleport_sound: ENTITY_SHULKER_TELEPORT
+  # Max distance where a player can place a portal.
+  placement_length: 80.0
+  # Portal particles.
+  particles:
+  - FLAME
+  - VILLAGER_HAPPY
+  # Use the 'whitelistedBlocks' list.
+  whitelist_blocks: false
+  # List of blocks where the user will be able to place portals.
+  whitelisted_blocks:
+  - WHITE_WOOL
+  - QUARTZ_BLOCK
+  - CHISELED_QUARTZ_BLOCK
+  - QUARTZ_PILLAR
+  - WHITE_CONCRETE
+  # Worlds where portals aren't allowed.
+  blacklisted_worlds:
+  - my-safe-world
+  # WorldGuard regions where portals can be opened.
+  # Warning: this will prevent opening portals in every other place except this WG regions.
+  only_allowed_worldguard_regions: []
+  # WorldGuard regions where portals aren't allowed.
+  denied_worldguard_regions: []
+
+beam:
+  # Max distance where a beam is propagated.
+  # Warning: large numbers may cause lag.
+  max_length: 45.0
+  # Particle to be used for the Thermal Discouragement Beam
+  particle: FLAME
+
+prefix:
+  # Prefix to be added on every PortalGun message
+  clear: §6§l[PortalGun] §a
+  # Prefix to be added on every PortalGun error message
+  error: §6§l[PortalGun] §c
+
+emancipator:
+  particles: NAUTILUS
+
+portalgun:
+  # PortalGun's material name
+  name: §6§lPortalGun
+  # PortalGun's material info
+  lore:
+  - With the PortalGun you can open portals.
+  # Material to be used for the PortalGun
+  material: IRON_HOE
+  # Show a particle trail where the portal is being launched.
+  cast_beam: true
+  # Change the PortalGun colors depending on the last pressed key.
+  # Note: you need to have the 'resourcepack.use' option enabled.
+  swipe_colors_animation: true
+  # All the configuration related to right-clicking entities.
+  take_entities:
+    # Allows the users to take entities.
+    enabled: true
+    # Denied entities to be grabbed.
+    blacklist:
+    - Player
+    - ExperienceOrb
+    - Item
+    - ItemFrame
+    - EnderCrystal
+    - EnderDragon
+    - Wither
+    - Warden
+
+teleport_entities:
+  # Denied entities to be teleported.
+  blacklist:
+  - ItemFrame
+  - EnderCrystal
+  - EnderDragon
+  - Wither
+  - Warden
+
+# Resourcepack-related configuration.
+# DO NOT edit the 'type' field.
+resourcepack:
+  type: com.rogermiranda1000.portalgun.files.Config$_CMDResourcepack
+  # Enable the PortalGun resourcepack.
+  use: false
+  # Download resourcepack endpoint.
+  # Set 'PROVIDED' if you force the users to install a custom PortalGun resourcepack via server config.
+  endpoint: http://rogermiranda1000.com/portalgun-v2/index.php
+  # Base CustomModelData used for the 3d models.
+  custom_model_data: 1

@@ -1,0 +1,39 @@
+help:
+  get_thermal_receiver: Get the Thermal Discouragement Receiver block.
+  remove_others_portals: Delete others' active portals.
+  get_emancipator: Get the emancipation block.
+  get_portalgun: Get the PortalGun.
+  get_portalboots: Get the PortalBoots.
+  remove_all_portals: Delete all the active portals.
+  redirection_cube: Spawn a redirection cube.
+  remove_portals: Delete your active portals.
+  companion_cube: Spawn a companion cube.
+  report: Send information about a problem. In the 'contact' zone set your email or
+    discord so I can contact with you (if you don't want to set '-')
+  get_thermal_beam: Get the Thermal Discouragement Beam block.
+user:
+  remove_death: Your portals have been removed due to your death.
+  get_portalboots: PortalBoots gived!
+  other_remove: '[player] has removed your portals.'
+  get_portalgun: PortalGun gived!
+  remove_others: You have removed [player]'s portals.
+  not_found: '[player] not found.'
+  no_permissions: You don't have permissions to do this!
+  get_emancipator: Emancipation block gived! Place one and another over it and you'll
+    create an emancipation grill.
+  remove_all: You have removed all portals.
+  no_portals: You don't have any opened portals right now.
+  remove: You have removed successfully your portals.
+  other_no_portals: '[player] doesn''t have any opened portals.'
+report:
+  sent: Report sent! Thanks for helping.
+  contact_error: You need to put an email (something@website) or Discord (user#id)
+    to contact. If you don't want to, then set '-'.
+error:
+  unknown_command: Unknown command.
+  unknown_world: Couldn't find the world [world].
+portal:
+  open: '[player] has opened a portal at [pos].'
+  far: That block is too far to place a portal.
+  deny: You can't open a portal here.
+  collides: You can't place both portals at the same block!

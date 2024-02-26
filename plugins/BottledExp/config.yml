@@ -4,13 +4,13 @@ bottle:
   # Language file you want to use
   Language: EN
   # How much player will spend converting his xp to bottles. This cant be lower than xpEarn
-  xpCost: 10
+  xpCost: 250
   # How much player will get xp from xp bottle
   # Default value: 8
   # Having this value lower than xpCost will mean that players will loose some amount of exp while converting, which can help out in preventing mindless conversions or posible exploits with other plugins which could give out extra exp
-  xpEarn: 8
+  xpEarn: 250
   # Do you want to use custom items when converting xp to xp bottles
-  useItems: false
+  useItems: true
   # Material name for custom item, by default its empty glass bottle
   consumedItemMaterial: GLASS_BOTTLE
   # How many to consume when converting. This is for every bottle you will get
@@ -37,7 +37,7 @@ bottle:
     # Default: 7
     MinimalAmount: 7
   BlockInteraction:
-    Use: false
+    Use: true
     # Do you want to use right click, if false then left will be used, good for block with interactions like enchant table
     UseRightClick: false
     # Material of block will be used to convert xp to bottles

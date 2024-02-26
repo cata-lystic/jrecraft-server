@@ -199,7 +199,7 @@ metrics:
   # If metrics should be enabled
   enabled: true
   # UUID of server, don't change!
-  uuid: 4e56f187-e72d-4c10-bd6e-0f523d87eca6
+  uuid: 6621fc18-133b-4ac0-89e4-8cb241a385d5
 
 # ADVANCED OPTIONS - DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!
 

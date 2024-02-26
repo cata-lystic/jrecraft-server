@@ -163,7 +163,7 @@ join:
   clean-chat-on-join: true
 
   # Sets whether the join message will be removed.
-  remove-join-message: true
+  remove-join-message: false
 
 #   _____     _                       _
 #  /__   \___| | ___ _ __   ___  _ __| |_
@@ -252,7 +252,7 @@ premium:
     # - For more information, please access the documentation:
     #    * https://docs.nickuc.com/nlogin/username-appender
     #
-    enabled: true
+    enabled: false
 
     premium:
       # Sets the prefix/suffix added to premium player nicknames.
@@ -288,7 +288,7 @@ premium:
       # - Regex expressions are accepted.
       # - The domains to be checked will always be in lower case.
       domains:
-        #- "myserver.com"
+        - "jrecraft.com"
 
   legacy:
     # Defines the type of unique id for users.
@@ -335,7 +335,7 @@ premium:
       # Defines whether Bedrock players should authenticate automatically.
       # - You can change this setting freely: already registered users
       #   will NOT be vulnerable by this change
-      enabled: true
+      enabled: false
 
       # Sets whether Bedrock players should skip registration.
       # - It is recommended to disable this option if you use player passwords
@@ -390,7 +390,7 @@ advanced:
     #    - 'ComputerCraft'
     #
     # => Use this feature at your own risk.
-    unrestricted-names: []
+    unrestricted-names: ['view','cataview']
 
     # Sets the name of the inventories that will not be locked before login.
     # - If you are a developer, it is best to use a higher priority for

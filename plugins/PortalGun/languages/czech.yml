@@ -1,0 +1,36 @@
+user:
+  remove_death: Tvé potrály byly odstraněny kvůli tvé smrti.
+  get_portalboots: Dostal jsi Portálové boty!
+  other_remove: '[player] odstraníl tvé portály.'
+  get_portalgun: Dostal jsi Portálovou pistoli!
+  remove_others: Odstranil jsi portály hráče [player].
+  not_found: '[player] nebyl nalezen.'
+  no_permissions: Na tohle nemáš opravnění!
+  get_emancipator: Emancipační blok byl přijat! Umístěte jeden a druhý navrch a vytvoříte
+    emancipační síť.
+  remove_all: Všechny tvé portály byly odstraněny.
+  no_portals: Právě teď nemáš žádné aktivní portály.
+  remove: Úspěšně jsi si odstraníl všechny své portály.
+  other_no_portals: '[player] nemá žádné aktivní portály.'
+report:
+  sent: Hlášení odesláno! Díky za pomoc.
+  contact_error: Chcete-li kontaktovat, musíte zadat e-mail (něco@web) nebo Discord
+    (uživatele#ID). Pokud nechcete, nastavte '-'.
+error:
+  unknown_command: Neznámý příkaz.
+  unknown_world: '[world] world nenalezen.'
+help:
+  remove_others_portals: Odstraní portály ostatních hráčů.
+  get_emancipator: Získáš emancipátorový blok.
+  get_portalgun: Získáš Portálovou pistoli.
+  get_portalboots: Získáš Portálové boty.
+  remove_all_portals: Odstraní všechny aktivní portály.
+  remove_portals: Odstraní tvé aktivní portály.
+  companion_cube: Vytvořte Společenskou kostku.
+  report: Odešlete informace o problému. V zóně 'kontakt' nastavte svůj e-mail nebo
+    diskor, abych se s vámi mohl spojit (pokud nechcete nastavit '-')
+portal:
+  open: '[player] otevřel portál na [pos].'
+  far: Tento blok se nachází příliš daleko na aktivaci portálu.
+  deny: Zde nelze položit portál.
+  collides: Nemůžeš položit dva portály na stejný blok!

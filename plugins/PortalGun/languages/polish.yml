@@ -1,0 +1,36 @@
+user:
+  remove_death: Twoje portale zostały usunięte przez to że umarłeś.
+  get_portalboots: Buty Portalowe otrzymane!
+  other_remove: '[player] usunął twoje portale.'
+  get_portalgun: Działo portalowe otrzymane!
+  remove_others: Usunąłeś portale gracza [player].
+  not_found: '[player] nie został znaleziony.'
+  no_permissions: Nie masz na to uprawnień!
+  get_emancipator: Otrzymano emancypacyjny blok! Postaw jeden i drugi na wierzchu,
+    a stworzysz emancypacyjną sieć.
+  remove_all: Usunąłeś wszystkie portale.
+  no_portals: Nie masz żadnych otwartych portali.
+  remove: Usunąłeś swoje portale.
+  other_no_portals: '[player] nie ma żadnych otwartych portali.'
+report:
+  sent: Raport wysłany! Dziękuję za pomoc.
+  contact_error: Aby się skontaktować, musisz podać e-mail (something@website) lub
+    Discord (user#id). Jeśli nie chcesz, ustaw '-'.
+error:
+  unknown_command: Nieznana komenda.
+  unknown_world: Świat [world] nie został znaleziony.
+help:
+  remove_others_portals: Usuń aktywne portale innych graczy.
+  get_emancipator: Zdobądź blok wyzwoliciela.
+  get_portalgun: Zdobądź działo portalowe.
+  get_portalboots: Zdobądź buty portalowe.
+  remove_all_portals: Usuń wszystkie aktywne portale.
+  remove_portals: Usuwa twoje aktywne portale.
+  companion_cube: Stwórz Kostkę Towarzysza.
+  report: Wyślij informacje o problemie. W strefie 'kontakt' ustaw swój adres e-mail
+    lub discord, abym mógł się z tobą skontaktować (jeśli nie chcesz ustawiać '-')
+portal:
+  open: '[player] otworzył portal(e) w [pos].'
+  far: Jesteś zbyt daleko aby tam stawić portal.
+  deny: Nie możesz otworzyć tu portalu.
+  collides: Nie możesz otworzyć dwóch portali na tym samym bloku!

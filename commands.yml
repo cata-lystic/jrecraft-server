@@ -3,3 +3,17 @@ ignore-vanilla-permissions: false
 aliases:
   icanhasbukkit:
   - version $1-
+  p:
+  - ajparkour start $1-
+  park:
+  - ajparkour start $1-
+  parkour:
+  - ajparkour start $1-
+  c:
+  - creativemode
+  s:
+  - survival
+  sp:
+  - spawn
+  h:
+  - home

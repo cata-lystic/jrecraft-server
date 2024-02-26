@@ -125,6 +125,241 @@ arenas:
     coords:
       spawnpoints: {}
       containers: {}
+      p1: -5362,101,1570,0.0,0.0,jrecraft
+      p2: -5346,124,1601,0.0,0.0,jrecraft
+    class-limits:
+      Oddjob: -1
+      My Items: -1
+      Knight: -1
+      Archer: -1
+      Tank: -1
+      Chemist: -1
+  catacastle:
+    settings:
+      prefix: ''
+      world: jrecraft
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      clear-wave-leeway: 0
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      monster-teleporting: false
+      spectate-on-death: true
+      auto-leave-on-end: false
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      join-interrupt-timer: 0
+      first-wave-delay: 5
+      next-wave-delay: 0
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: false
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-ignite-fuse: 80
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      arena-warp-offset: 0
+      boss-health-bar: boss-bar
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      announcer-type: title
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            slimes-big: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, chest_minecart, furnace_minecart
+          '13': iron_sword, iron_pickaxe, iron_shovel
+          '16': diamond_sword
+    coords:
+      spawnpoints:
+        -5352,110,1579: -5351.5,110,1579.5,0.0,0.0,jrecraft
+        -5360,105,1584: -5359.5,105,1584.5,0.0,0.0,jrecraft
+        -5352,110,1587: -5351.5,110,1587.5,0.0,0.0,jrecraft
+        -5358,118,1580: -5357.5,118,1580.5,0.0,0.0,jrecraft
+        -5354,110,1572: -5353.5,110,1572.5,0.0,0.0,jrecraft
+        -5353,111,1598: -5352.5,111,1598.5,0.0,0.0,jrecraft
+        -5350,108,1593: -5349.5,108,1593.5,0.0,0.0,jrecraft
+      containers:
+        -5355,115,1580: -5355,115,1580,0.0,0.0,jrecraft
+        -5358,105,1590: -5358,105,1590,0.0,0.0,jrecraft
+        -5357,110,1590: -5357,110,1590,0.0,0.0,jrecraft
+        -5361,118,1579: -5361,118,1579,0.0,0.0,jrecraft
+        -5354,105,1597: -5354,105,1597,0.0,0.0,jrecraft
+        -5348,108,1593: -5348,108,1593,0.0,0.0,jrecraft
+      p1: -5362,101,1570,0.0,0.0,jrecraft
+      p2: -5346,124,1601,0.0,0.0,jrecraft
+      lobby: -5355.5,110,1563.5,24.04,0.0,jrecraft
+      spectator: -5353.5,127,1588.5,-155.23,0.0,jrecraft
+      exit: -5371.5,110,1584.5,-93.01,0.0,jrecraft
+      arena: -5360.5,110,1584.5,-133.21,0.0,jrecraft
+      l1: -5362,109,1560,0.0,0.0,jrecraft
+      l2: -5352,112,1568,0.0,0.0,jrecraft
+    class-limits:
+      Oddjob: -1
+      My Items: -1
+      Knight: -1
+      Archer: -1
+      Tank: -1
+      Chemist: -1
+  beta:
+    settings:
+      prefix: ''
+      world: jrecraft
+      enabled: true
+      protect: true
+      entry-fee: ''
+      default-class: ''
+      clear-wave-before-next: false
+      clear-boss-before-next: false
+      clear-wave-before-boss: false
+      clear-wave-leeway: 0
+      soft-restore: false
+      soft-restore-drops: false
+      require-empty-inv-join: false
+      require-empty-inv-spec: false
+      pvp-enabled: false
+      monster-infight: false
+      allow-teleporting: false
+      monster-teleporting: false
+      spectate-on-death: true
+      auto-leave-on-end: false
+      share-items-in-arena: true
+      min-players: 0
+      max-players: 0
+      max-join-distance: 0
+      join-interrupt-timer: 0
+      first-wave-delay: 5
+      next-wave-delay: 0
+      wave-interval: 15
+      final-wave: 0
+      monster-limit: 100
+      monster-exp: false
+      keep-exp: false
+      food-regen: false
+      lock-food-level: true
+      player-time-in-arena: world
+      auto-ignite-tnt: false
+      auto-ignite-fuse: 80
+      auto-start-timer: 0
+      start-delay-timer: 0
+      auto-ready: false
+      use-class-chests: false
+      arena-warp-offset: 0
+      boss-health-bar: boss-bar
+      display-waves-as-level: false
+      display-timer-as-level: false
+      use-scoreboards: true
+      isolated-chat: false
+      announcer-type: title
+      global-join-announce: false
+      global-end-announce: false
+      show-death-messages: true
+    waves:
+      recurrent:
+        def1:
+          type: default
+          priority: 1
+          frequency: 1
+          monsters:
+            zombies: 10
+            skeletons: 10
+            spiders: 10
+            creepers: 10
+            wolves: 10
+        spec1:
+          type: special
+          priority: 2
+          frequency: 4
+          monsters:
+            powered-creepers: 10
+            slimes-big: 10
+            angry-wolves: 10
+            blazes: 10
+      single:
+        swarm1:
+          type: swarm
+          wave: 6
+          monster: slime
+          amount: low
+        boss1:
+          type: boss
+          wave: 10
+          monster: cave_spider
+          health: high
+          abilities: arrows, root-target, throw-nearby
+    rewards:
+      waves:
+        every:
+          '3': feather, bone, stick
+          '5': dirt:4, gravel:4, stone:4
+          '10': iron_ingot:10, gold_ingot:8
+        after:
+          '7': minecart, chest_minecart, furnace_minecart
+          '13': iron_sword, iron_pickaxe, iron_shovel
+          '16': diamond_sword
+    coords:
+      spawnpoints: {}
+      containers: {}
     class-limits:
       Oddjob: -1
       My Items: -1

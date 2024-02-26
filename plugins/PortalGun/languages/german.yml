@@ -1,0 +1,37 @@
+user:
+  remove_death: Deine Portale haben sich wegen deines Todes geschlossen.
+  get_portalboots: Du hast die PortalBoots erhalten!
+  other_remove: '[player] hat deine Portale geschlossen.'
+  get_portalgun: Du hast die PortalGun erhalten.
+  remove_others: Du hast die Portale von [player] geschlossen.
+  not_found: '[player] nicht gefunden.'
+  no_permissions: Du hast keine Rechte!
+  get_emancipator: Du hast den Emancipation block erhalten! Platziere 2 aufeinander
+    um die Portale zu benutzen.
+  remove_all: Du hast alle Portale geschlossen.
+  no_portals: Du hast grade keine offende Portale.
+  remove: Du hast erfolgreich deine Portale geschlossen.
+  other_no_portals: '[player] hat keine offende Portale.'
+report:
+  sent: Report gesendet. Danke fuer deine Hilfe.
+  contact_error: Du must eine E-Mail (something@website) eingeben oder ein Discord
+    (user#id) Benutzername. Wenn du es nicht willst, denn schreibe '-'.
+error:
+  unknown_command: Unbekannter Befehl.
+  unknown_world: Die [world]-Welt wurde nicht gefunden.
+help:
+  remove_others_portals: Delete others' active portals.
+  get_emancipator: Erhalte den emancipation block.
+  get_portalgun: Erhalte die PortalGun.
+  get_portalboots: Erhalte die PortalBoots.
+  remove_all_portals: Loescht alle aktiven Portale.
+  remove_portals: Loescht deine aktiven Portale.
+  companion_cube: Erzeuge einen Gefährtenwürfel.
+  report: Sendet ein Bug Report an die Entwickler. Du must eine E-Mail (something@website)
+    eingeben oder ein Discord (user#id) Benutzername. Wenn du es nicht willst, denn
+    schreibe '-'.
+portal:
+  open: '[player] hat ein Portal bei [pos] geoefnet.'
+  far: Der Block ist zu weit entfernt.
+  deny: Hier kannst du kein Portal oefnnen.
+  collides: Du kannst nicht beide Portale auf denselben Block setzen.

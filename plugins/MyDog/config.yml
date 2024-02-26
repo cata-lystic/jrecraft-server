@@ -529,7 +529,7 @@ DogSettings:
   - Zeus
   - Ziggy
   AllowRevival: true
-  RevivalPricePerLevel: 200
+  RevivalPricePerLevel: 10
   RevivalUsingPlayerExp: false
   AllowArrowDamage: false
   Lifesteal: 0.25
